@@ -9,10 +9,10 @@
 #include <bits/stdc++.h>
 #include <windows.h>
 #include <cstdlib>
-#include <cctype> // For tolower
+#include <cctype>
 using namespace std;
 
-// Structure to store transport details
+// Used Structure to store transport details..
 struct Transport
 {
     int number;
@@ -23,7 +23,7 @@ struct Transport
     string arrival_time;
     double price;
     int seats_left;
-    Transport *next; // For linked list
+    Transport *next;
 };
 
 // Binary Search Tree node for transport data
@@ -36,7 +36,7 @@ struct Transport
 //     BSTNode(Transport *transport) : transport(transport), left(nullptr), right(nullptr) {}
 // };
 
-// Linked List for storing transports
+// Created Linked List for storing transports..
 class TransportList
 {
 public:
@@ -47,7 +47,7 @@ public:
         head = nullptr;
     }
 
-    // Add transport data to the list
+    // This function helps to add transport data to the list
     void addTransport(int number, string name, string source, string destination, string departure_time, string arrival_time, double price, int seats_left)
     {
         Transport *newTransport = new Transport{number, name, source, destination, departure_time, arrival_time, price, seats_left, nullptr};
@@ -66,7 +66,7 @@ public:
         }
     }
 
-    // Display all transport data
+    //  To Display all transport data
     void displayAllTransports()
     {
         Transport *temp = head;
@@ -81,7 +81,7 @@ public:
         }
     }
 
-    // Update the seats left after booking
+    // To Update the seats left after booking
     void updateSeats(int transportNumber, int bookedSeats)
     {
         Transport *temp = head;
@@ -96,7 +96,7 @@ public:
         }
     }
 
-    // // Function to search for transport by source and destination (using binary search)
+    //  To search for transport by source and destination (using binary search)
     // Transport *searchBySourceDestination(string source, string destination)
     // {
     //     BSTNode *bstRoot = nullptr;
@@ -107,16 +107,6 @@ public:
     //     return searchBST(bstRoot, source, destination);
     // }
 
-    // Function to search transport by source and destination, using the BST
-    // Transport *searchBySourceDestination(string source, string destination)
-    // {
-    //     BSTNode *bstRoot = nullptr;
-    //     // First, build the BST from the linked list
-    //     buildBSTFromLinkedList(bstRoot, head);
-
-    //     // Then, search for the transport in the BST
-    //     return searchBST(bstRoot, source, destination);
-    // }
     string toLowerCase(const string input)
     {
         string result = input;
@@ -134,26 +124,23 @@ public:
              << setw(20) << "**************** Transport List *************\n";
         if (!source.empty())
         {
-            // Make the first character uppercase
             source[0] = toupper(source[0]);
             // source = toLowerCase(source);
         }
         if (!destination.empty())
         {
-            // Make the first character uppercase
             destination[0] = toupper(destination[0]);
             // destination = toLowerCase(destination);
         }
         Transport *temp = head;
         bool found = false;
 
-        // Iterate through the linked list and print all matching transports
         while (temp)
         {
             if (temp->source == source && temp->destination == destination)
             {
                 found = true;
-                // Display transport details
+
                 cout << "Transport Number: " << temp->number << endl;
                 cout << "Transport Name: " << temp->name << endl;
                 cout << "Source: " << temp->source << ", Destination: " << temp->destination << endl;
@@ -171,20 +158,7 @@ public:
             exit(0);
         }
     }
-    // Transport *searchBySourceDestination(string source, string destination)
-    // {
-    //     Transport *temp = head;
-    //     while (temp)
-    //     {
-    //         if (temp->source == source && temp->destination == destination)
-    //         {
-    //             return temp;
-    //         }
-    //         temp = temp->next;
-    //     }
-    //     return nullptr; // No match found
-    // }
-    // Function to build a BST from the linked list
+
     // void buildBSTFromLinkedList(BSTNode *&root, Transport *head)
     // {
     //     Transport *temp = head;
@@ -196,7 +170,6 @@ public:
     //     }
     // }
 
-    // // Function to insert a node into the BST
     // void insertBST(BSTNode *&root, BSTNode *newNode)
     // {
     //     if (!root)
@@ -213,49 +186,6 @@ public:
     //     }
     // }
 
-    // Function to build the BST with comparison based on both source and destination
-    // void insertBST(BSTNode *&root, BSTNode *newNode)
-    // {
-    //     if (!root)
-    //     {
-    //         root = newNode;
-    //     }
-    //     else
-    //     {
-    //         // Compare both source and destination for sorting order in the tree
-    //         string source_dest_current = root->transport->source + root->transport->destination;
-    //         string source_dest_new = newNode->transport->source + newNode->transport->destination;
-
-    //         if (source_dest_new < source_dest_current)
-    //         {
-    //             insertBST(root->left, newNode);
-    //         }
-    //         else
-    //         {
-    //             insertBST(root->right, newNode);
-    //         }
-    //     }
-    // }
-
-    // // Function to search the BST by source and destination
-    // Transport *searchBST(BSTNode *root, string source, string destination)
-    // {
-    //     if (!root)
-    //     {
-    //         return nullptr;
-    //     }
-    //     if (root->transport->source == source && root->transport->destination == destination)
-    //     {
-    //         return root->transport;
-    //     }
-    //     if (source < root->transport->source)
-    //     {
-    //         return searchBST(root->left, source, destination);
-    //     }
-    //     return searchBST(root->right, source, destination);
-    // }
-
-    // Function to search the BST by source and destination
     // Transport *searchBST(BSTNode *root, string source, string destination)
     // {
     //     if (!root)
@@ -282,6 +212,7 @@ public:
     //         return searchBST(root->right, source, destination);
     //     }
     // }
+
     void displayTicket(vector<string> &username, Transport *transport, int seats_booked)
     {
         system("cls");
@@ -293,19 +224,19 @@ public:
         cout << "==============================================  TICKET  ================================================\n";
         for (int i = 0; i < size; i++)
         {
-            cout << " Passenger [" << i + 1 << "]" << " : " << username[i] << "\n\n";
+            cout << " Passenger " << i + 1 << " : " << username[i] << "\n\n";
         }
         cout << " Transport Number: " << transport->number << "\n\n";
         cout << " Transport Name: " << transport->name << "\n\n";
         cout << " Source: " << transport->source << setw(60) << " Destination : " << transport->destination << "\n\n";
-        cout << " Departure Time: " << transport->departure_time << setw(60) << "Arrival Time: " << transport->arrival_time << "\n\n";
+        cout << " Departure Time: " << transport->departure_time << setw(54) << "Arrival Time: " << transport->arrival_time << "\n\n";
         cout << " Seats Booked: " << seats_booked << setw(60) << "Total Price : " << seats_booked * transport->price << "\n\n ";
         cout << " Booking Date: " << asctime(now) << "\n";
         cout << "========================================================================================================\n";
     }
 };
 
-// Function to display current date and time for the ticket
+// To display current date and time for the ticket
 string
 currentDateTime()
 {
@@ -313,40 +244,6 @@ currentDateTime()
     char *dt = ctime(&now);
     return string(dt);
 }
-
-// Function to handle user login or account creation
-// bool userLogin(string username)
-// {
-//     string password;
-//     cout << "Enter Password: ";
-//     cin >> password;
-
-//     // Check if user exists in the file
-//     ifstream userFile("user.txt");
-//     string line;
-//     while (getline(userFile, line))
-//     {
-//         stringstream ss(line);
-//         string fileUsername, filePassword;
-//         ss >> fileUsername >> filePassword;
-//         if (fileUsername == username && filePassword == password)
-//         {
-//             cout << "Login Successful!" << endl;
-//             return true;
-//         }
-//     }
-//     cout << "Invalid credentials. Do you want to create a new account? (y/n): ";
-//     char choice;
-//     cin >> choice;
-//     if (choice == 'y')
-//     {
-//         ofstream userFileOut("user.txt", ios::app);
-//         userFileOut << username << " " << password << endl;
-//         cout << "Account created successfully!" << endl;
-//         return true;
-//     }
-//     return false;
-// }
 
 void loadCredentials(unordered_map<string, string> &credentials, const string &filename)
 {
@@ -359,7 +256,7 @@ void loadCredentials(unordered_map<string, string> &credentials, const string &f
     file.close();
 }
 
-// Function to save credentials from a map into the file
+//  To save credentials from a map into the file
 void saveCredentials(const unordered_map<string, string> &credentials, const string &filename)
 {
     ofstream file(filename, ios::trunc); // Open in truncate mode to overwrite the file
@@ -397,7 +294,7 @@ bool login(const unordered_map<string, string> &credentials)
     }
 }
 
-// Register function
+// User Register function...
 bool registerUser(unordered_map<string, string> &credentials, const string &filename)
 {
     system("cls");
@@ -426,7 +323,7 @@ bool registerUser(unordered_map<string, string> &credentials, const string &file
     }
 }
 
-// Reset password function
+// To Reset password function
 void resetPassword(unordered_map<string, string> &credentials, const string &filename)
 {
     system("cls");
@@ -453,14 +350,12 @@ void resetPassword(unordered_map<string, string> &credentials, const string &fil
     }
 }
 
-// Main menu
+// Our app Main menu
 void menu()
 {
     unordered_map<string, string> credentials;
     const string filename = "credentials.txt";
 
-    // Sleep(1000);
-    // Load existing credentials
     loadCredentials(credentials, filename);
     bool flag = false;
     while (!flag)
@@ -511,16 +406,15 @@ void menu()
 
 void animatedDisplay(const string &message, int delay_ms)
 {
-    // Display characters one by one
     cout << "\n\n\n"
          << setw(50);
     for (char c : message)
     {
         cout << c << flush;
-        Sleep(delay_ms); // Sleep for delay_ms milliseconds
+        Sleep(delay_ms);
     }
 
-    Sleep(500); // Pause before removal
+    Sleep(500);
 
     // Remove characters one by one
     for (size_t i = 0; i < message.size(); ++i)
@@ -530,16 +424,16 @@ void animatedDisplay(const string &message, int delay_ms)
     }
 }
 
-// Main ticket booking system
+// Our Main ticket booking system code...
 int main()
 {
-    string welcomeMessage = "Welcome to our Ticket Booking System...";
+    string welcomeMessage = "Welcome to our Ticket Reservation System...";
     animatedDisplay(welcomeMessage, 45);
     Sleep(1000);
 
     menu();
 
-    // Load transport data from file (train.txt, plane.txt, bus.txt)
+    // To Load transport data from file (train.txt, plane.txt, bus.txt)
     TransportList transportList;
 label1:
     int choice;
@@ -643,10 +537,10 @@ label1:
         break;
     }
 
-    // Display available transports
+    // To Display available transports
     transportList.displayAllTransports();
 
-    // Book a ticket
+    // To Book a ticket
     cout << "\n"
          << setw(20) << "Enter Source (e.g., Delhi): ";
     string sourceQuery;
@@ -656,55 +550,6 @@ label1:
     string destinationQuery;
     cin >> destinationQuery;
 
-    // Search the transport via BST for the source and destination
-    // Transport *selectedTransport = transportList.searchBySourceDestination(sourceQuery, destinationQuery);
-    // if (selectedTransport)
-    // {
-    //     cout << "Transport Found!" << endl;
-    //     cout << "Transport Number: " << selectedTransport->number << endl;
-    //     cout << "Name: " << selectedTransport->name << ", Source: " << selectedTransport->source << ", Destination: " << selectedTransport->destination << endl;
-    //     cout << "Departure: " << selectedTransport->departure_time << ", Arrival: " << selectedTransport->arrival_time << endl;
-    //     cout << "Price: " << selectedTransport->price << ", Seats Left: " << selectedTransport->seats_left << endl;
-
-    //     cout << "Enter number of seats to book: ";
-    //     int bookedSeats;
-    //     cin >> bookedSeats;
-    //     // Book seats and update transport data
-    //     if (bookedSeats <= selectedTransport->seats_left)
-    //     {
-    //         // Update the seats left
-    //         transportList.updateSeats(selectedTransport->number, bookedSeats);
-    //         cout << "Booking Successful!" << endl;
-
-    //         // Print the ticket
-    //         string username = "User"; // Assume the username is obtained from the login process
-    //         printTicket(username, selectedTransport->number, bookedSeats, selectedTransport);
-    //     }
-    //     else
-    //     {
-    //         cout << "Sorry, not enough seats available!" << endl;
-    //     }
-    // }
-    // else
-    // {
-    //     cout << "No transport found for the specified route!" << endl;
-    // }
-
-    // // Save updated transport data back to file (train.txt, plane.txt, bus.txt)
-    // ofstream trainFileOut("train.txt");
-    // Transport *temp = transportList.head;
-    // while (temp)
-    // {
-    //     trainFileOut << temp->number << endl;
-    //     trainFileOut << temp->name << endl;
-    //     trainFileOut << temp->source << endl;
-    //     trainFileOut << temp->destination << endl;
-    //     trainFileOut << temp->departure_time << endl;
-    //     trainFileOut << temp->arrival_time << endl;
-    //     trainFileOut << temp->price << endl;
-    //     trainFileOut << temp->seats_left << endl;
-    //     temp = temp->next;
-    // }
     transportList.searchBySourceDestination(sourceQuery, destinationQuery);
 
     int transport_number, seats_booked;
@@ -737,7 +582,7 @@ label1:
                 for (int i = 0; i < seats_booked; i++)
                 {
                     cout << "\n"
-                         << setw(20) << "Enter passenger " << i + 1 << " name: ";
+                         << "Enter passenger " << i + 1 << " name: ";
                     cin >> username[i];
                 }
 
@@ -811,9 +656,9 @@ label1:
     }
     busFileOut.close();
 
-    // here write code for dialog box for do you want to book another ticket
     return 0;
 }
+
 /*Train Number
 Train Name
 Source
