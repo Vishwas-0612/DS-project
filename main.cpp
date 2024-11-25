@@ -282,17 +282,19 @@ public:
     //         return searchBST(root->right, source, destination);
     //     }
     // }
-    void displayTicket(string username, Transport *transport, int seats_booked)
+    void displayTicket(vector<string> &username, Transport *transport, int seats_booked)
     {
         system("cls");
         // Get the current date and time
         time_t t = time(0);
         struct tm *now = localtime(&t);
-        // time_t now_time = time(0);
-        // char *now = asctime(localtime(&now_time));
+        int size = username.size();
         cout << "\n\n\n";
         cout << "==============================================  TICKET  ================================================\n";
-        cout << " Username: " << username << "\n\n";
+        for (int i = 0; i < size; i++)
+        {
+            cout << " Passenger [" << i + 1 << "]" << " : " << username[i] << "\n\n";
+        }
         cout << " Transport Number: " << transport->number << "\n\n";
         cout << " Transport Name: " << transport->name << "\n\n";
         cout << " Source: " << transport->source << setw(60) << " Destination : " << transport->destination << "\n\n";
@@ -731,10 +733,13 @@ label1:
             if (seats_booked <= transport->seats_left)
             {
                 transport->seats_left -= seats_booked;
-                string username;
-                cout << "\n"
-                     << setw(20) << "Enter passenger name: ";
-                cin >> username;
+                vector<string> username(seats_booked);
+                for (int i = 0; i < seats_booked; i++)
+                {
+                    cout << "\n"
+                         << setw(20) << "Enter passenger " << i + 1 << " name: ";
+                    cin >> username[i];
+                }
 
                 system("cls");
                 string waitMsg = "Please Wait! Generating Ticket...";
