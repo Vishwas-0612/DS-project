@@ -259,7 +259,7 @@ void loadCredentials(unordered_map<string, string> &credentials, const string &f
 //  To save credentials from a map into the file
 void saveCredentials(const unordered_map<string, string> &credentials, const string &filename)
 {
-    ofstream file(filename, ios::trunc); // Open in truncate mode to overwrite the file
+    ofstream file(filename, ios::trunc);
     for (const auto &pair : credentials)
     {
         file << pair.first << " " << pair.second << endl;
@@ -609,54 +609,63 @@ label1:
              << setw(20) << "**************** Invalid transport number! *****************" << endl;
     }
     // Save updated transport data back to file (train.txt, plane.txt, bus.txt)
-    ofstream trainFileOut("train.txt");
-    Transport *temp_train = transportList.head;
-    while (temp_train)
-    {
-        trainFileOut << temp_train->number << endl;
-        trainFileOut << temp_train->name << endl;
-        trainFileOut << temp_train->source << endl;
-        trainFileOut << temp_train->destination << endl;
-        trainFileOut << temp_train->departure_time << endl;
-        trainFileOut << temp_train->arrival_time << endl;
-        trainFileOut << temp_train->price << endl;
-        trainFileOut << temp_train->seats_left << endl;
-        temp_train = temp_train->next;
-    }
-    trainFileOut.close();
 
-    ofstream planeFileOut("plane.txt");
-    Transport *temp_plane = transportList.head;
-    while (temp_plane)
+    if (choice == 1)
     {
-
-        planeFileOut << temp_plane->number << endl;
-        planeFileOut << temp_plane->name << endl;
-        planeFileOut << temp_plane->source << endl;
-        planeFileOut << temp_plane->destination << endl;
-        planeFileOut << temp_plane->departure_time << endl;
-        planeFileOut << temp_plane->arrival_time << endl;
-        planeFileOut << temp_plane->price << endl;
-        planeFileOut << temp_plane->seats_left << endl;
-        temp_plane = temp_plane->next;
+        ofstream trainFileOut("train.txt");
+        Transport *temp_train = transportList.head;
+        while (temp_train)
+        {
+            trainFileOut << temp_train->number << endl;
+            trainFileOut << temp_train->name << endl;
+            trainFileOut << temp_train->source << endl;
+            trainFileOut << temp_train->destination << endl;
+            trainFileOut << temp_train->departure_time << endl;
+            trainFileOut << temp_train->arrival_time << endl;
+            trainFileOut << temp_train->price << endl;
+            trainFileOut << temp_train->seats_left << endl;
+            temp_train = temp_train->next;
+        }
+        trainFileOut.close();
     }
-    planeFileOut.close();
-    ofstream busFileOut("bus.txt");
-    Transport *temp_bus = transportList.head;
-    while (temp_bus)
+
+    else if (choice == 3)
     {
-        busFileOut << temp_bus->number << endl;
-        busFileOut << temp_bus->name << endl;
-        busFileOut << temp_bus->source << endl;
-        busFileOut << temp_bus->destination << endl;
-        busFileOut << temp_bus->departure_time << endl;
-        busFileOut << temp_bus->arrival_time << endl;
-        busFileOut << temp_bus->price << endl;
-        busFileOut << temp_bus->seats_left << endl;
-        temp_bus = temp_bus->next;
-    }
-    busFileOut.close();
+        ofstream planeFileOut("plane.txt");
+        Transport *temp_plane = transportList.head;
+        while (temp_plane)
+        {
 
+            planeFileOut << temp_plane->number << endl;
+            planeFileOut << temp_plane->name << endl;
+            planeFileOut << temp_plane->source << endl;
+            planeFileOut << temp_plane->destination << endl;
+            planeFileOut << temp_plane->departure_time << endl;
+            planeFileOut << temp_plane->arrival_time << endl;
+            planeFileOut << temp_plane->price << endl;
+            planeFileOut << temp_plane->seats_left << endl;
+            temp_plane = temp_plane->next;
+        }
+        planeFileOut.close();
+    }
+    else if (choice == 2)
+    {
+        ofstream busFileOut("bus.txt");
+        Transport *temp_bus = transportList.head;
+        while (temp_bus)
+        {
+            busFileOut << temp_bus->number << endl;
+            busFileOut << temp_bus->name << endl;
+            busFileOut << temp_bus->source << endl;
+            busFileOut << temp_bus->destination << endl;
+            busFileOut << temp_bus->departure_time << endl;
+            busFileOut << temp_bus->arrival_time << endl;
+            busFileOut << temp_bus->price << endl;
+            busFileOut << temp_bus->seats_left << endl;
+            temp_bus = temp_bus->next;
+        }
+        busFileOut.close();
+    }
     return 0;
 }
 

@@ -69,7 +69,7 @@ Mumbai
 06:10
 17:36
 456
-143
+141
 12172
 Passenger Train
 Jaipur
@@ -1181,7 +1181,7 @@ Ahmedabad
 05:56
 15:54
 1064
-188
+184
 23361
 Superfast Express
 Pune

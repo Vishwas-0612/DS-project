@@ -477,7 +477,7 @@ Bangalore
 12:30
 15:15
 6300
-50
+49
 87
 SpiceJet
 Kolkata
@@ -557,7 +557,7 @@ Goa
 22:00
 23:45
 4700
-60
+59
 97
 SpiceJet
 Mumbai
