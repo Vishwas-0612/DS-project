@@ -1,312 +1,1200 @@
-646006
-Verma, Bava and Saraf
-Raiganj
-Nellore
-05:39:33
-11:32:20
-1435
-18
-271188
-Shere-Bajaj
-Bhind
+32192
+Intercity Express
 Delhi
-11:14:57
-21:30:50
-1487
-31
-451930
-Mangal-Ranganathan
-Haridwar
-Rampur
-02:54:43
-00:18:33
-880
-42
-254507
-Sandal PLC
-Raipur
-Mysore
-02:28:46
-08:12:15
-836
-26
-9781
-Loyal LLC
-Kharagpur
-Nadiad
-13:30:33
-13:23:42
-810
-43
-443277
-Shukla and Sons
-Anand
-Ballia
-13:31:33
-23:17:07
-1402
-37
-528854
-Keer Inc
-South Dumdum
-Rourkela
-20:06:21
-23:09:14
-1270
-27
-763317
-Kohli-Sachdev
-Faridabad
-Tiruchirappalli
-15:44:00
-15:58:52
-1071
-15
-399396
-Gade-Ravel
-Durg
-Srikakulam
-11:42:22
-05:43:37
-720
-27
-301220
-Lala-Grewal
-Kavali
-Kirari Suleman Nagar
-11:20:
-19:57:43
-1283
-26
-476274
-Badami Inc
-Sikar
-Hajipur
-21:24:45
-08:29:28
-973
-19
-627522
-Roy-Chakrabarti
-Nashik
-Solapur
-18:12:10
-08:40:47
-1387
-44
-889993
-Saraf-Sarin
-Agra
-Vijayanagaram
-12:27:58
-02:22:29
-1036
+Bangalore
+22:35
+04:19
+1062
+197
+45786
+Garib Rath
+Bangalore
+Ahmedabad
+21:24
+03:37
+1220
+188
+12459
+Jan Shatabdi
+Lucknow
+Pune
+07:51
+09:52
+1374
+359
+72375
+Superfast Express
+Kolkata
+Lucknow
+15:32
+04:20
+1610
+48
+87149
+Shatabdi Express
+Jaipur
+Lucknow
+04:12
+18:24
+1821
+462
+78334
+Duronto Express
+Mumbai
+Hyderabad
+23:09
+04:11
+1063
+418
+47595
+Intercity Express
+Ahmedabad
+Patna
+12:03
+16:48
+559
+115
+42749
+Garib Rath
+Pune
+Jaipur
+12:27
+03:04
+245
 33
-391930
-Bal and Sons
-Srikakulam
-Warangal
-17:05:42
-01:53:21
-542
-28
-144494
-Balan, Bir and Chanda
-Bathinda
-Saharsa
-23:16:22
-02:37:00
-863
-36
-164452
-Saxena-Dass
-Ramagundam
-Raebareli
-07:26:58
-14:26:27
-1036
-40
-211368
-Keer and Sons
-Bhimavaram
-Nagaon
-17:22:36
-19:02:50
-589
-49
-882964
-Boase-Bahri
-Ghaziabad
-Kadapa
-15:45:36
-13:59:55
-676
-17
-435128
-Kalita-Vala
-Gulbarga
-Chittoor
-07:00:46
-03:01:54
-1128
-38
-594354
-Din Ltd
-Hindupur
-Vadodara
-12:03:57
-10:34:48
-702
-37
-871452
-Ratti LLC
-Panihati
-Erode
-22:27:38
-14:03:46
-990
-30
-265330
-Bala-Dugal
-Noida
-Chittoor
-12:32:30
-01:58:54
-1480
-43
-156663
-Dara Ltd
-Gurgaon
-Jamalpur
-22:55:32
-06:27:00
-542
-11
-569730
-Wason PLC
-Deoghar
-Bhilai
-20:24:27
-00:27:26
-1470
-5
-194355
-Golla-Madan
-Rampur
-Bhagalpur
-18:02:04
-20:37:20
-1143
-24
-456862
-Kaul and Sons
-Howrah
-Thiruvananthapuram
-15:48:40
-04:56:46
-489
-35
-206989
-Chanda Inc
-Kavali
-Kanpur
-01:26:31
-10:49:36
-1139
-49
-989084
-Luthra Group
-Farrukhabad
-Meerut
-16:13:38
-11:39:06
-1433
-20
-101447
-Varughese, Kade and Yadav
-Anantapur
-Maheshtala
-07:08:01
-10:05:26
-703
-24
-994239
-Seth, Kumar and Sur
-Sultan Pur Majra
-Surat
-19:26:39
-03:31:31
-717
-14
-806320
-Choudhry, Sarin and Dhar
-Vadodara
-Kurnool
-02:09:58
-17:31:10
-828
-20
-894547
-Sekhon-Kale
-Howrah
-Udaipur
-04:40:30
-16:37:24
-431
-14
-8840
-Chaudhary, Saini and Sami
+75176
+Intercity Express
+Delhi
+Mumbai
+06:10
+17:36
+456
+143
+12172
+Passenger Train
+Jaipur
+Delhi
+01:05
+05:51
+970
+170
+19472
+Rajdhani Express
+Jaipur
+Bhopal
+21:07
+23:50
+1815
+209
+27327
+Intercity Express
+Ahmedabad
+Bhopal
+21:35
+04:40
+557
+483
+12582
+Intercity Express
+Kolkata
+Hyderabad
+10:30
+23:07
+888
+346
+62269
+Passenger Train
+Mumbai
+Patna
+00:46
+03:06
+1639
+265
+27747
+Jan Shatabdi
+Lucknow
+Hyderabad
+23:05
+03:43
+1982
+356
+20735
+Shatabdi Express
 Chennai
-Nagpur
-13:54:07
-14:50:57
-1026
-17
-658693
-Kibe-Mani
-North Dumdum
-Yamunanagar
-03:18:05
-18:03:19
-1153
+Ahmedabad
+19:08
+03:06
+329
+311
+47474
+Shatabdi Express
+Pune
+Mumbai
+01:58
+17:20
+1587
+443
+56914
+Superfast Express
+Mumbai
+Lucknow
+01:27
+05:15
+1417
+212
+52054
+Rajdhani Express
+Patna
+Bhopal
+10:39
+15:32
+1222
+272
+20792
+Intercity Express
+Jaipur
+Bangalore
+22:18
+12:11
+1830
+327
+89505
+Passenger Train
+Ahmedabad
+Bhopal
+12:28
+19:55
+1232
+235
+17849
+Garib Rath
+Lucknow
+Mumbai
+18:19
+08:47
+1970
+256
+97646
+Garib Rath
+Ahmedabad
+Bhopal
+02:52
+07:35
+440
+352
+50219
+Intercity Express
+Bangalore
+Mumbai
+22:23
+03:52
+499
+483
+37497
+Garib Rath
+Lucknow
+Kolkata
+00:35
+02:40
+171
+163
+58652
+Superfast Express
+Jaipur
+Lucknow
+15:40
+04:17
+408
+290
+96652
+Rajdhani Express
+Bangalore
+Pune
+10:09
+14:42
+612
+266
+92942
+Rajdhani Express
+Kolkata
+Jaipur
+16:26
+19:30
+1690
+362
+71677
+Passenger Train
+Mumbai
+Hyderabad
+17:20
+20:07
+1624
+242
+74626
+Intercity Express
+Ahmedabad
+Bangalore
+22:26
+06:13
+1478
+249
+72333
+Superfast Express
+Ahmedabad
+Patna
+07:29
+12:17
+677
 33
-678210
-Suresh-Khalsa
-Ghaziabad
-Bidhannagar
-16:43:25
-22:33:50
+81238
+Passenger Train
+Lucknow
+Bhopal
+23:12
+05:50
+890
+485
+87399
+Passenger Train
+Bhopal
+Mumbai
+14:25
+19:05
+1556
+230
+91935
+Passenger Train
+Jaipur
+Delhi
+22:00
+12:53
+772
+408
+75971
+Duronto Express
+Bhopal
+Hyderabad
+14:39
+01:42
+947
+43
+48415
+Shatabdi Express
+Hyderabad
+Kolkata
+21:21
+04:16
+278
+58
+40755
+Rajdhani Express
+Hyderabad
+Jaipur
+01:53
+08:41
+1110
+105
+58349
+Garib Rath
+Mumbai
+Ahmedabad
+00:11
+07:00
+1351
+357
+42459
+Garib Rath
+Pune
+Patna
+10:18
+16:44
+1859
+432
+24993
+Duronto Express
+Bhopal
+Lucknow
+10:26
+20:39
+837
+425
+95959
+Rajdhani Express
+Pune
+Ahmedabad
+11:48
+22:44
+1315
+78
+63755
+Rajdhani Express
+Chennai
+Mumbai
+10:42
+17:47
+915
+214
+28922
+Jan Shatabdi
+Delhi
+Jaipur
+13:46
+04:23
+1031
+218
+52897
+Garib Rath
+Ahmedabad
+Kolkata
+17:49
+22:42
+1010
+482
+76077
+Jan Shatabdi
+Chennai
+Mumbai
+23:35
+03:27
+582
+246
+38877
+Passenger Train
+Bhopal
+Lucknow
+07:40
+22:38
+822
+276
+41194
+Rajdhani Express
+Jaipur
+Delhi
+22:27
+10:36
+1700
+380
+85458
+Rajdhani Express
+Hyderabad
+Patna
+03:02
+10:01
+900
+385
+58528
+Intercity Express
+Chennai
+Lucknow
+17:34
+22:03
+1696
+411
+63602
+Jan Shatabdi
+Mumbai
+Hyderabad
+22:49
+09:25
+1032
+238
+79310
+Shatabdi Express
+Chennai
+Delhi
+20:28
+08:27
+927
+41
+81524
+Garib Rath
+Jaipur
+Pune
+12:27
+23:25
+816
+422
+80317
+Passenger Train
+Bhopal
+Hyderabad
+11:55
+23:30
+551
+124
+48749
+Superfast Express
+Delhi
+Hyderabad
+23:53
+03:18
+1858
+229
+62102
+Superfast Express
+Bangalore
+Pune
+08:57
+13:47
+1361
+486
+68691
+Superfast Express
+Lucknow
+Chennai
+08:50
+15:42
+584
+84
+92596
+Duronto Express
+Hyderabad
+Ahmedabad
+02:42
+18:36
+1108
+273
+40224
+Jan Shatabdi
+Lucknow
+Kolkata
+16:42
+02:37
+1716
+482
+80148
+Jan Shatabdi
+Delhi
+Bangalore
+03:34
+19:27
+712
+48
+45274
+Duronto Express
+Patna
+Bhopal
+13:52
+03:43
+669
+443
+51948
+Intercity Express
+Patna
+Lucknow
+07:48
+16:46
+566
+229
+88000
+Shatabdi Express
+Patna
+Lucknow
+03:41
+08:29
+153
+270
+94019
+Passenger Train
+Pune
+Lucknow
+12:40
+18:33
+709
+171
+20509
+Duronto Express
+Lucknow
+Chennai
+09:57
+00:17
+545
+139
+73403
+Rajdhani Express
+Lucknow
+Patna
+01:05
+15:50
+615
+190
+17720
+Intercity Express
+Pune
+Chennai
+02:04
+17:34
+1967
+174
+90363
+Shatabdi Express
+Mumbai
+Jaipur
+07:22
+14:27
+1515
+80
+53430
+Rajdhani Express
+Chennai
+Hyderabad
+03:19
+10:19
+1202
+233
+49976
+Superfast Express
+Bhopal
+Chennai
+14:03
+20:42
+1774
+471
+75951
+Jan Shatabdi
+Bhopal
+Lucknow
+05:27
+10:31
+1078
+299
+54161
+Duronto Express
+Delhi
+Chennai
+22:33
+03:31
+658
+151
+10354
+Superfast Express
+Bangalore
+Delhi
+03:51
+06:57
+1107
+347
+23661
+Garib Rath
+Pune
+Delhi
+12:01
+17:34
+1399
+345
+33235
+Superfast Express
+Hyderabad
+Pune
+20:12
+05:47
+1492
+257
+48125
+Passenger Train
+Hyderabad
+Delhi
+14:03
+19:49
+1802
+174
+73226
+Intercity Express
+Pune
+Delhi
+15:31
+01:06
+559
+411
+92216
+Superfast Express
+Pune
+Bhopal
+22:52
+12:25
+570
+40
+90218
+Passenger Train
+Delhi
+Mumbai
+02:33
+15:51
+1018
+91
+72866
+Garib Rath
+Delhi
+Chennai
+14:05
+04:56
+745
+482
+91145
+Rajdhani Express
+Bangalore
+Hyderabad
+11:58
+16:41
+1560
 303
-44
-909181
-Sehgal Ltd
-Tadipatri
-Kottayam
-21:58:14
-10:42:
-613
-36
-736519
-Rattan, Khare and Cheema
-Kishanganj
-Aurangabad
-03:52:35
-09:34:16
-1424
-44
-706559
-Gala, Balay and Shroff
-Thiruvananthapuram
-Uluberia
-11:17:38
-18:04:43
-938
-19
-914458
-Barman and Sons
-Medininagar
-Shimoga
-06:32:24
-17:38:13
-1448
-759185
+56701
+Passenger Train
+Hyderabad
+Bangalore
+17:50
+01:03
+1590
+403
+84503
+Garib Rath
+Ahmedabad
+Mumbai
+23:18
+14:32
+231
+482
+81093
+Shatabdi Express
+Bangalore
+Hyderabad
+06:29
+12:12
+123
+205
+34680
+Superfast Express
+Mumbai
+Chennai
+20:39
+03:04
+1267
+121
+31001
+Superfast Express
+Mumbai
+Jaipur
+16:54
+01:08
+1604
+8
+71979
+Shatabdi Express
+Pune
+Delhi
+19:49
+04:44
+1395
+226
+32230
+Jan Shatabdi
+Bhopal
+Patna
+18:01
+09:43
+1907
+320
+67649
+Superfast Express
+Lucknow
+Bangalore
+23:21
+02:01
+1661
+83
+67867
+Superfast Express
+Chennai
+Patna
+20:05
+09:10
+711
+209
+61143
+Rajdhani Express
+Jaipur
+Lucknow
+05:08
+12:51
+448
+374
+61647
+Passenger Train
+Bangalore
+Ahmedabad
+19:53
+08:39
+1986
+372
+45078
+Jan Shatabdi
+Ahmedabad
+Bhopal
+21:15
+09:46
+667
+455
+83795
+Intercity Express
+Chennai
+Ahmedabad
+05:28
+10:32
+1438
+320
+53600
+Shatabdi Express
+Hyderabad
+Bangalore
+23:11
+06:06
+1645
+429
+14742
+Rajdhani Express
+Mumbai
+Delhi
+23:48
+08:14
+804
+35
+87192
+Garib Rath
+Jaipur
+Chennai
+06:39
+08:50
+1092
+167
+16070
+Passenger Train
+Kolkata
+Patna
+14:21
+21:50
+797
+488
+27049
+Passenger Train
+Bangalore
+Pune
+00:57
+06:30
+1385
+182
+57857
+Duronto Express
+Hyderabad
+Delhi
+14:58
+18:49
+1969
+360
+38219
+Duronto Express
+Bhopal
+Kolkata
+22:07
+05:14
+348
+75
+49416
+Shatabdi Express
+Ahmedabad
+Bangalore
+01:55
+08:17
+1480
+442
+37291
+Intercity Express
+Bangalore
+Lucknow
+05:55
+15:32
+748
+379
+42825
+Superfast Express
+Chennai
+Pune
+01:08
+12:25
+915
+190
+26711
+Jan Shatabdi
+Bhopal
+Jaipur
+21:36
+11:18
+417
+190
+63547
+Garib Rath
+Jaipur
+Bhopal
+07:11
+17:02
+430
+470
+90634
+Superfast Express
+Jaipur
+Delhi
+10:33
+19:27
+1026
+405
+28426
+Shatabdi Express
+Ahmedabad
+Jaipur
+19:34
+03:52
+1810
+77
+58383
+Superfast Express
+Pune
+Hyderabad
+06:50
+20:11
+1226
+315
+22270
+Duronto Express
+Pune
+Delhi
+15:24
+00:43
+815
+151
+45858
+Garib Rath
+Jaipur
+Hyderabad
+03:32
+14:31
+357
+342
+18603
+Garib Rath
+Patna
+Jaipur
+01:55
+07:24
+539
+144
+38463
+Intercity Express
+Pune
+Jaipur
+19:51
+11:17
+798
+471
+63833
+Duronto Express
+Delhi
+Jaipur
+09:50
+12:29
+113
+384
+98524
+Garib Rath
+Ahmedabad
+Jaipur
+16:39
+23:31
+764
+354
+79775
+Rajdhani Express
+Mumbai
+Delhi
+09:53
+16:07
+585
+327
+56882
+Intercity Express
+Bhopal
+Pune
+07:21
+23:16
+1405
+223
+13801
+Shatabdi Express
+Delhi
+Lucknow
+19:20
+02:20
+1345
+307
+21897
+Shatabdi Express
+Patna
+Chennai
+19:32
+06:53
+1881
+295
+15381
+Superfast Express
+Jaipur
+Chennai
+05:09
+11:22
+665
+253
+12409
+Intercity Express
+Patna
+Mumbai
+18:15
+00:47
+1243
+54
+70139
+Passenger Train
+Delhi
+Jaipur
+15:51
+00:14
+147
+467
+73368
+Rajdhani Express
+Patna
+Lucknow
+18:11
+06:59
+305
+48
+71470
+Duronto Express
+Patna
+Lucknow
+13:57
+03:27
+1028
+295
+25595
+Intercity Express
+Bangalore
+Lucknow
+10:47
+13:05
+863
+257
+23328
+Passenger Train
+Pune
+Lucknow
+23:15
+14:37
+674
+147
+67118
+Passenger Train
+Kolkata
+Patna
+08:30
+22:40
+251
+405
+36397
+Shatabdi Express
+Ahmedabad
+Chennai
+20:58
+09:01
+1084
+169
+24162
+Passenger Train
+Patna
+Bangalore
+23:48
+07:33
+1366
+63
+28157
+Duronto Express
+Lucknow
+Chennai
+23:17
+05:44
+1076
+419
+31420
+Garib Rath
+Patna
+Hyderabad
+08:34
+23:44
+238
+256
+76328
+Rajdhani Express
+Chennai
+Mumbai
+19:41
+08:18
+199
+112
+66727
+Intercity Express
+Jaipur
+Kolkata
+10:05
+14:26
+1593
+266
+39329
+Intercity Express
+Jaipur
+Bangalore
+09:00
+18:16
+1805
+14
+68239
+Rajdhani Express
+Delhi
+Hyderabad
+20:27
+09:19
+1048
+54
+41588
+Jan Shatabdi
+Lucknow
+Bhopal
+09:12
+20:39
+1723
+466
+12639
+Duronto Express
+Ahmedabad
+Mumbai
+14:43
+00:36
+1677
+132
+96451
+Intercity Express
+Bangalore
+Chennai
+11:09
+00:34
+273
+440
+87728
+Rajdhani Express
+Lucknow
+Bhopal
+03:48
+06:17
+722
+450
+86043
+Shatabdi Express
+Mumbai
+Chennai
+10:08
+13:40
+1903
+235
+13773
+Shatabdi Express
+Lucknow
+Jaipur
+00:59
+13:38
+1556
+180
+95548
+Superfast Express
+Chennai
+Mumbai
+14:59
+18:18
+1781
+98
+66023
+Passenger Train
+Bangalore
+Mumbai
+10:12
+00:37
+765
+117
+93137
+Intercity Express
+Delhi
+Hyderabad
+05:13
+09:16
+1832
+128
+90899
+Jan Shatabdi
+Hyderabad
+Bangalore
+03:49
+17:29
+1708
+217
+96052
+Intercity Express
+Bhopal
+Hyderabad
+06:08
+16:15
+986
+313
+74509
+Duronto Express
+Kolkata
+Delhi
+20:04
+02:04
+1766
+225
+91727
+Rajdhani Express
+Kolkata
+Jaipur
+15:27
+02:27
+1625
+472
+34630
+Jan Shatabdi
+Patna
+Ahmedabad
+05:56
+15:54
+1064
+188
+23361
+Superfast Express
+Pune
+Lucknow
+16:26
+00:29
+277
+103
+96643
+Passenger Train
+Kolkata
+Hyderabad
+23:50
+09:06
+355
+6

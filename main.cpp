@@ -302,6 +302,7 @@ bool registerUser(unordered_map<string, string> &credentials, const string &file
     cout << "\n\n";
     cout << setw(20) << "Enter a New Username: ";
     cin >> username;
+    // getline(cin, username);
     cout << setw(20) << "Enter a New Password: ";
     cin >> password;
 
